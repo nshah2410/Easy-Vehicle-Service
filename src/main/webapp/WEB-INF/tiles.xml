@@ -1,0 +1,263 @@
+<!DOCTYPE tiles-definitions PUBLIC
+  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+  
+<tiles-definitions>
+		
+		<definition name="master" template="/WEB-INF/jsp/master.jsp">
+			<put-attribute name="title" value="" />
+			<put-attribute name="path" value="" />
+		</definition>
+		
+		<definition name="login" template="/WEB-INF/jsp/login.jsp">
+			<put-attribute name="title" value="" />
+			<put-attribute name="path" value="" />
+		</definition>
+		
+		<definition name="index" template="/WEB-INF/jsp/index.jsp">
+			<put-attribute name="title" value="" />
+			<put-attribute name="path" value="" />
+		</definition>
+		
+		<definition name="signup" template="/WEB-INF/jsp/signup.jsp">
+			<put-attribute name="title" value="" />
+			<put-attribute name="path" value="" />
+		</definition>
+		
+		<definition name="forgotpassword" template="/WEB-INF/jsp/forgotpassword.jsp">
+			<put-attribute name="title" value="" />
+			<put-attribute name="path" value="" />
+		</definition>
+		
+		<definition name="dashboard" extends="master">
+			<put-attribute name="title" value="dashboard" />
+			<put-attribute name="path" value="/WEB-INF/jsp/dashboard.jsp" />
+		</definition>
+		
+		<definition name="admindashboard" extends="master">
+			<put-attribute name="title" value="admindashboard" />
+			<put-attribute name="path" value="/WEB-INF/jsp/admindashboard.jsp" />
+		</definition>
+		
+		<definition name="admingarageinventory" extends="master">
+			<put-attribute name="title" value="admingarageinventory" />
+			<put-attribute name="path" value="/WEB-INF/jsp/admingarageinventory.jsp" />
+		</definition>
+		
+		<definition name="adminprofile" extends="master">
+			<put-attribute name="title" value="adminprofile" />
+			<put-attribute name="path" value="/WEB-INF/jsp/adminprofile.jsp" />
+		</definition>
+		
+		<definition name="user" extends="master">
+			<put-attribute name="title" value="user" />
+			<put-attribute name="path" value="/WEB-INF/jsp/user.jsp" />
+		</definition>
+		
+		<definition name="customer" extends="master">
+			<put-attribute name="title" value="customer" />
+			<put-attribute name="path" value="/WEB-INF/jsp/customer.jsp" />
+		</definition>
+		
+		<definition name="editcustomer" extends="master">
+			<put-attribute name="title" value="editcustomer" />
+			<put-attribute name="path" value="/WEB-INF/jsp/editcustomer.jsp" />
+		</definition>
+		
+		
+		
+		<definition name="department" extends="master">
+			<put-attribute name="title" value="department" />
+			<put-attribute name="path" value="/WEB-INF/jsp/department.jsp" />
+		</definition>
+		
+		<definition name="employee" extends="master">
+			<put-attribute name="title" value="employee" />
+			<put-attribute name="path" value="/WEB-INF/jsp/employee.jsp" />
+		</definition>
+		
+		<definition name="editemployee" extends="master">
+			<put-attribute name="title" value="editemployee" />
+			<put-attribute name="path" value="/WEB-INF/jsp/editemployee.jsp" />
+		</definition>
+		
+		<definition name="vehiclecompany" extends="master">
+			<put-attribute name="title" value="vehiclecompany" />
+			<put-attribute name="path" value="/WEB-INF/jsp/vehiclecompany.jsp" />
+		</definition>
+		
+		<definition name="vehiclemodel" extends="master">
+			<put-attribute name="title" value="vehiclemodel" />
+			<put-attribute name="path" value="/WEB-INF/jsp/vehiclemodel.jsp" />
+		</definition>
+		
+		<definition name="customervehicle" extends="master">
+			<put-attribute name="title" value="customervehicle" />
+			<put-attribute name="path" value="/WEB-INF/jsp/customervehicle.jsp" />
+		</definition>
+		
+		<definition name="viewcustvehicle" extends="master">
+			<put-attribute name="title" value="viewcustvehicle" />
+			<put-attribute name="path" value="/WEB-INF/jsp/viewcustvehicle.jsp" />
+		</definition>
+		
+		<definition name="city" extends="master">
+			<put-attribute name="title" value="city" />
+			<put-attribute name="path" value="/WEB-INF/jsp/city.jsp" />
+		</definition>
+		
+		<definition name="area" extends="master">
+			<put-attribute name="title" value="area" />
+			<put-attribute name="path" value="/WEB-INF/jsp/area.jsp" />
+		</definition>
+		
+		<definition name="garage" extends="master">
+			<put-attribute name="title" value="garage" />
+			<put-attribute name="path" value="/WEB-INF/jsp/garage.jsp" />
+		</definition>
+		
+		<definition name="editgarage" extends="master">
+			<put-attribute name="title" value="editgarage" />
+			<put-attribute name="path" value="/WEB-INF/jsp/editgarage.jsp" />
+		</definition>
+		
+		<definition name="garagedetails" extends="master">
+			<put-attribute name="title" value="garagedetails" />
+			<put-attribute name="path" value="/WEB-INF/jsp/garageDetails.jsp" />
+		</definition>
+		
+		<definition name="inventory" extends="master">
+			<put-attribute name="title" value="inventory" />
+			<put-attribute name="path" value="/WEB-INF/jsp/inventory.jsp" />
+		</definition>
+		
+		<!--Customer Side-->
+		
+		<definition name="myvehicle" extends="master">
+			<put-attribute name="title" value="myvehicle" />
+			<put-attribute name="path" value="/WEB-INF/custjsp/myvehicle.jsp" />
+		</definition>
+		
+		<definition name="profile" extends="master">
+			<put-attribute name="title" value="profile" />
+			<put-attribute name="path" value="/WEB-INF/custjsp/profile.jsp" />
+		</definition>
+		
+		<definition name="service" extends="master">
+			<put-attribute name="title" value="service" />
+			<put-attribute name="path" value="/WEB-INF/custjsp/servicehistory.jsp" />
+		</definition>
+		
+		<definition name="profile" extends="master">
+			<put-attribute name="title" value="profile" />
+			<put-attribute name="path" value="/WEB-INF/custjsp/profile.jsp" />
+		</definition>
+		
+		<definition name="addcustomervehicle" extends="master">
+			<put-attribute name="title" value="addcustomervehicle" />
+			<put-attribute name="path" value="/WEB-INF/custjsp/addcustomervehicle.jsp" />
+		</definition>
+		
+		<definition name="customerDashboard" extends="master">
+			<put-attribute name="title" value="customerDashboard" />
+			<put-attribute name="path" value="/WEB-INF/custjsp/customerDashboard.jsp" />
+		</definition>
+		
+		<definition name="serviceRequest" extends="master">
+			<put-attribute name="title" value="serviceRequest" />
+			<put-attribute name="path" value="/WEB-INF/custjsp/serviceRequest.jsp" />
+		</definition>
+		
+		<definition name="priceestimation" extends="master">
+			<put-attribute name="title" value="priceestimation" />
+			<put-attribute name="path" value="/WEB-INF/custjsp/priceestimation.jsp" />
+		</definition>
+		
+		<definition name="garageservicerequest" extends="master">
+			<put-attribute name="title" value="garageservicerequest" />
+			<put-attribute name="path" value="/WEB-INF/custjsp/garageservicerequest.jsp" />
+		</definition>
+		
+		<definition name="serviceDetails" extends="master">
+			<put-attribute name="title" value="serviceDetails" />
+			<put-attribute name="path" value="/WEB-INF/custjsp/serviceDetails.jsp" />
+		</definition>
+		
+		<definition name="garageuservehicle" extends="master">
+			<put-attribute name="title" value="garageuservehicle" />
+			<put-attribute name="path" value="/WEB-INF/garagejsp/garageuservehicle.jsp" />
+		</definition>
+		
+		<definition name="pendingfeedback" extends="master">
+			<put-attribute name="title" value="pendingfeedback" />
+			<put-attribute name="path" value="/WEB-INF/custjsp/pendingfeedback.jsp" />
+		</definition>
+		
+		<!-- Garage Admin Side -->
+		
+		<definition name="garageInventory" extends="master">
+			<put-attribute name="title" value="garageInventory" />
+			<put-attribute name="path" value="/WEB-INF/garagejsp/garageInventory.jsp" />
+		</definition>
+
+		<definition name="garagevehicle" extends="master">
+			<put-attribute name="title" value="garagevehicle" />
+			<put-attribute name="path" value="/WEB-INF/garagejsp/garageVehicle.jsp" />
+		</definition>
+		
+		<definition name="garageinventoryparts" extends="master">
+			<put-attribute name="title" value="garageinventoryparts"/>
+			<put-attribute name="path" value="/WEB-INF/garagejsp/garageinventoryparts.jsp" />
+		</definition>
+		
+		<definition name="pendingrequest" extends="master">
+			<put-attribute name="title" value="pendingrequest"/>
+			<put-attribute name="path" value="/WEB-INF/garagejsp/pendingrequest.jsp" />
+		</definition>
+		
+		<definition name="acceptedrequest" extends="master">
+			<put-attribute name="title" value="acceptedrequest"/>
+			<put-attribute name="path" value="/WEB-INF/garagejsp/acceptedrequest.jsp" />
+		</definition>
+		
+		<definition name="servicesummary" extends="master">
+			<put-attribute name="title" value="servicesummary"/>
+			<put-attribute name="path" value="/WEB-INF/garagejsp/servicesummary.jsp" />
+		</definition>
+		
+		<definition name="declinedrequest" extends="master">
+			<put-attribute name="title" value="declinedrequest"/>
+			<put-attribute name="path" value="/WEB-INF/garagejsp/declinedrequest.jsp" />
+		</definition>
+		
+		<definition name="pickupschedule" extends="master">
+			<put-attribute name="title" value="pickupschedule"/>
+			<put-attribute name="path" value="/WEB-INF/garagejsp/pickupSchedule.jsp" />
+		</definition>
+		
+		<definition name="scheduledpickup" extends="master">
+			<put-attribute name="title" value="scheduledpickup"/>
+			<put-attribute name="path" value="/WEB-INF/garagejsp/scheduledPickup.jsp" />
+		</definition>
+		
+		<definition name="vehiclerecieved" extends="master">
+			<put-attribute name="title" value="vehiclerecieved"/>
+			<put-attribute name="path" value="/WEB-INF/garagejsp/vehicleRecieved.jsp" />
+		</definition>
+		
+		<definition name="garageemployee" extends="master">
+			<put-attribute name="title" value="garageemployee"/>
+			<put-attribute name="path" value="/WEB-INF/garagejsp/garageemployee.jsp" />
+		</definition>
+		
+		<definition name="garagecustomer" extends="master">
+			<put-attribute name="title" value="garagecustomer"/>
+			<put-attribute name="path" value="/WEB-INF/garagejsp/garagecustomer.jsp" />
+		</definition>
+		
+		<definition name="assigndriver" extends="master">
+			<put-attribute name="title" value="assigndriver"/>
+			<put-attribute name="path" value="/WEB-INF/garagejsp/assigndriver.jsp" />
+		</definition>
+		
+</tiles-definitions>
