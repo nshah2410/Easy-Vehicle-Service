@@ -163,6 +163,7 @@ public class fileController {
 		String name = null;
 		String role = null;
 		List<loginModel> clist = d.getdata("loginModel");
+		System.out.print(clist);
 		for(int i = 0 ; i < clist.size() ; i++) {
 			if(clist.get(i).getUsername().equalsIgnoreCase(username)) {
 				role = clist.get(i).getRole();				
